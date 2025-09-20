@@ -36,6 +36,8 @@ struct custom_type {
   int i = 0;
 };
 
+fffff
+
 FMT_BEGIN_NAMESPACE
 template <> struct formatter<custom_type> {
   auto parse(format_parse_context& ctx) -> decltype(ctx.begin()) {
